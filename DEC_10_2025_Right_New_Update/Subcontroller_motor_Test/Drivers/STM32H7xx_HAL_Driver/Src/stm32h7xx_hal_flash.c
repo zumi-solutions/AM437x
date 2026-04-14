@@ -1101,7 +1101,7 @@ HAL_StatusTypeDef FLASH_OB_WaitForLastOperation(uint32_t Timeout)
 
     /* Clear the OB error flag */
     FLASH->OPTCCR |= FLASH_OPTCCR_CLR_OPTCHANGEERR;
-
+    printf("Hello, I am Srinu!\n");
     return HAL_ERROR;
   }
 

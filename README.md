@@ -1,2 +1,1 @@
-This is Zumi Repository 
-# AM437x
+This is srinu branch
